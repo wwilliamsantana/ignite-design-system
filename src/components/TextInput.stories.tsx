@@ -30,3 +30,8 @@ export default {
 
 export const Default: StoryObj<TextInputRootProps> = {}
 
+export const WithouIcon: StoryObj<TextInputRootProps> = {
+  args: {
+    children: <TextInput.Input placeholder="Type Your e-mail address" />
+  }
+}
